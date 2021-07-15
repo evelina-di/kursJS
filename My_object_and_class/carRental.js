@@ -1,6 +1,6 @@
 import Car from "./script.js";
 
-const Toyota = new Car(
+const toyota = new Car(
     "Yaris",
     "white",
     3,
@@ -9,12 +9,24 @@ const Toyota = new Car(
     false
 );
 
-const Fiat = new Car(
+const fiat = new Car(
     "Punto",
     "black",
     5,
     5,
     false,
     true
-);    
+);
 
+const opel = new Car(
+    "Astra",
+    "Silver",
+    3,
+    5,
+    false,
+    true
+);
+
+console.log("The car availabe:", opel);
+console.log("The car availabe:", fiat);
+console.log("Is the engine on in Toyota?", toyota.engineOn);

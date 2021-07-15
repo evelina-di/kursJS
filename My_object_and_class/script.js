@@ -40,9 +40,9 @@ class Car {
         this.engineOn = engineOn
     } 
     openWindow(windowStatus) {
-        this.windowsOpen = windowStatus }
+        this.windowsOpen = windowStatus; }
     startEngine(engineStatus) {
-        this.engineOn = engineStatus }
+        this.engineOn = engineStatus; }
     }
 
 export default Car;
